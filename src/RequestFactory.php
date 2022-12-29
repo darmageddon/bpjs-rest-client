@@ -16,7 +16,10 @@ use Darmageddon\RestBpjs\Vclaim\{
     Lpk\InsertLPK,
     Lpk\UpdateLPK,
     Lpk\DeleteLPK,
-    Lpk\GetDataLembarPengajuanKlaim
+    Lpk\GetDataLembarPengajuanKlaim,
+
+    PRB\GetDataPRBByNomorSRB,
+    PRB\GetDataPRBByTanggalSRB
 };
 
 class RequestFactory
@@ -38,6 +41,10 @@ class RequestFactory
             UpdateLPK::class,
             DeleteLPK::class,
             GetDataLembarPengajuanKlaim::class,
+
+            //Pencarian Data PRB
+            GetDataPRBByNomorSRB::class,
+            GetDataPRBByTanggalSRB::class
         ]
     ];
 

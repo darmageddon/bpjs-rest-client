@@ -24,6 +24,8 @@ use Darmageddon\RestBpjs\Vclaim\VclaimRequestFactory;
  * @method ResponseInterface updateLPK(RequestBodyInterface $body)
  * @method ResponseInterface deleteLPK(RequestBodyInterface $body)
  * @method ResponseInterface getDataLembarPengajuanKlaim(string $tanggalMasuk, string $jenisPelayanan)
+ * @method ResponseInterface getDataPRBByNomorSRB(string $noSrb, string $noSep)
+ * @method ResponseInterface getDataPRBByTanggalSRB(string $tanggalMulai, string $tanggalAkhir)
  */
 class BPJSRestClient
 {

@@ -5,6 +5,7 @@
 
 Sebuah client REST BPJS yang simpel menggunakan PHP 8.
 
+[![Tests](https://github.com/darmageddon/bpjs-rest-client/actions/workflows/php.yml/badge.svg)](https://github.com/darmageddon/bpjs-rest-client/actions/workflows/php.yml)
 
 ## Usage/Examples
 
