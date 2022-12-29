@@ -30,7 +30,7 @@ abstract class BaseRequest
             method: $this->getMethod(),
             uri: $this->getUri(),
             headers: $this->getHeaders(),
-            body: $this->getBody()
+            body: $this->getBody()?->toJson()
         );
     }
 
