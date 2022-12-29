@@ -1,0 +1,33 @@
+{
+    "name": "darmageddon/bpjs-rest-client",
+    "type": "library",
+    "description": "BPJS REST API Client",
+    "license": "MIT",
+    "keywords": [
+        "bpjs",
+        "vclaim"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Darmageddon\\RestBpjs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darma",
+            "email": "fibodarma@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "nullpunkt/lz-string-php": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
